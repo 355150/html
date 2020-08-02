@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link  href="css/iconfont.css"  rel="stylesheet"  type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <style>
+
+        #wrap{
+            width: 374px;
+            height:700px ;
+
+        } *{
+              margin: 0;
+              padding: 0;
+          }
+
+        #header{
+            width: 100%;
+            height: 5%;
+
+
+            margin-top: 10px;
+            display: flex;
+
+        }
+        .div1{
+
+            width: 25px;
+            height: 15px;
+            font-size: 12px;
+            background: #db1224;
+            color: white;
+            float: left;
+
+
+        }
+        .div2{
+            width:190px;
+            height: 30px;
+
+
+            /*多了点点*/
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            font-size: 15px;
+            color: #8b8b8b;
+            margin-left: 15px;
+
+        }
+        .div3{
+
+            width: 50px;
+            height: 20px;
+
+            font-size: 12px;
+            background: #8b8b8b;
+
+            margin-left: 20px;
+
+
+
+
+        }
+        .div4{
+
+            width: 170px;
+            height: 100px;
+
+
+
+
+
+        }
+        .div6{
+
+            width: 374px;
+            height: 100px;
+
+            display: flex;
+        }
+        .div5{
+            width: 200px;
+            height: 130px;
+
+
+        }
+        .writing1{
+            width: 50px;
+            height: 20px;
+          color: black;
+            text-align: center;
+            background: #f7f7f7;
+            margin-left: 70px;
+
+        }
+        /*中部*/
+        #wrap1{
+
+            width: 374px;
+            height: 700px;
+
+
+            margin: auto;
+            /*成为弹性盒子*/
+            display: flex;
+
+            /*弹性盒子*/
+            /*将空白间距进行分布*/
+            justify-content: space-between;
+            /*justify-content: space-around;*/
+            flex-wrap:wrap ;
+            align-content: space-between;
+        }
+        #wrap .writing8{
+            color: #db1224;
+            font-weight:bold;
+
+        }
+        #wrap .writing9{
+            border: #db1224 1px solid ;color: #db1224;
+
+        }
+
+        #wrap .writing11{
+
+            /*多了点点*/
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        #wrap .img6{
+            width: 167px;
+            height: 150px;
+        }
+
+        #wrap .div16{
+
+            width: 167px;
+            height: 20px;
+
+            /*多了点点*/
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+        }
+        #nav{
+            width: 400px;
+
+            height: 54px;
+            background: white;
+
+            position: fixed;
+            bottom: 0;
+
+        }
+        #nav .nav1{
+            width: 100px;
+            height: 54px;
+
+
+            color: #8b8b8b;
+            float: left;
+            text-align: center;
+
+
+
+        }
+        .div11{
+            width:70%;
+            height: 40px;
+            border-radius: 25px;
+
+            margin-top: 5px;
+            text-align: center;
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+<div id="header" >
+    <span class="iconfont" style="font-size: 23px">&#xe685;</span>
+    <div style="text-align: center ;width: 100%">
+        <span style="font-size: 20px">购物车</span></div>
+    <div style="float: right;font-size: 20px;">...</div></div>
+
+    <div style="margin-top: 15px; margin-left: 10px;margin-right: 10px">
+    <span  class="iconfont" style="font-size: 15px">北京朝阳区三环到四环之间</span>  <div style="float: right;font-size: 15px;">|&nbsp&nbsp&nbsp&nbsp&nbsp编辑商品</div></div>
+
+
+
+    <div style="margin-top: 30px"> <span class="iconfont" style="margin: 10px;font-size:20px;color: #db1224">&#xe680;</span><span class="iconfont" style="font-size: 15px;font-weight: bold">&#xe88d;半亩花田官方旗舰店&#xe666;</span></div>
+
+<div style="margin: 25px">
+    <div><div class="div1">满减</div>
+    <div style="float: left ;font-size: 12px;"><span>满99元可减5元，还差62.5元</span></div>
+    </div>
+    <div style="float: right ;font-size: 12px;color: #8b8b8b">去凑单</div>
+</div>
+
+<br>
+
+    <div class="div6">
+    <div  class="div4" ><span class="iconfont" style="margin: 10px;font-size:20px;color: #db1224; float: left">&#xe680;</span>
+
+    <img  style="float: right" src="imgs/jd/5b1f2cedN1a3c4e88.jpg!q80.dpg.webp"width="100" height="100"> </div>
+
+        <div class="div5">
+        <div class="div2" >半亩庄园  手抓饼台湾风味原味手抓饼  家庭装 批发早餐煎饼面饼半亩庄园  手抓饼台湾风味原味手抓饼  家庭装 批发早餐煎饼面饼<br> </div>
+
+            <div  class="div3">满99减5</div>
+
+            <div style="margin-top:30px;margin-left: 15px;color: #c82519;display: flex"><span >￥33.8</span>
+
+                <div class="writing1"> <span >1</span></div><span style="color: black;font-weight: bold">+</span> </div>
+            <div style="margin-left: 150px;font-size: 12px;;color: #8b8b8b">删除</div>
+
+
+
+    </div>
+</div>
+
+    <div style="text-align: center;margin-top: 50px;color: #8b8b8b;font-size: 15px">可能你还想要</div>
+    <div id="wrap1">
+
+
+
+        <div>
+            <img  class="img6" src="imgs/jd/ab6c1ad03a3796fd.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11">筷子   结实  耐用  传统</span>  </div>
+
+
+            <span  class="writing8" >￥16.6</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+
+
+        <div>
+            <img  class="img6" src="imgs/jd/5a9fb2fce0c58bb0.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11">现货销售 男鞋   新品  好看  韩式</span>  </div>
+
+
+            <span  class="writing8" >￥100</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+        <div>
+            <img  class="img6" src="imgs/jd/d3ab39a3e10f100e.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11"> 现货销售 女士手表 漂亮 品牌</span>  </div>
+
+
+            <span  class="writing8" >￥166</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+        <div>
+            <img  class="img6" src="imgs/jd/3845dd70c2e2fbbd.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11">现货销售 手镯  冰种  玉手镯</span>  </div>
+
+
+            <span  class="writing8" >￥1088</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+
+
+
+        <div>
+            <img  class="img6" src="imgs/jd/5cd93efdN638c58c4.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11"> 沙发套  防滑 好看  耐脏</span>  </div>
+
+
+            <span  class="writing8" >￥50</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+
+
+
+        <div>
+            <img  class="img6" src="imgs/jd/11a0ffc04a7662ef.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11">裙子  小仙女  漂亮好看</span>  </div>
+
+
+            <span  class="writing8" >￥16.6</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+
+        <div>
+            <img  class="img6" src="imgs/jd/3101ae5bd7585bc7.jpg!q70.dpg.webp" >
+
+            <div class="div16"> <span  class="writing11">女鞋  漂亮  好看  品牌</span>  </div>
+
+
+            <span  class="writing8" >￥16.6</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+
+        <div>
+            <img  class="img6" src="imgs/jd/71d28ef8e897347e.png.webp" >
+
+            <div class="div16"> <span  class="writing11"> 棉被  新棉  超级舒适  </span>  </div>
+
+
+            <span  class="writing8" >￥16.6</span>
+            <span  class="writing9" >满减</span>
+
+            <span class="writing10">看相似</span>
+        </div>
+
+
+
+
+    </div>
+
+    <div id="nav">
+
+        <a href="task4.html"><div class="nav1">
+            <span class="iconfont" style="font-size: 25px">&#xe8b9;
+         </span><br><span>首页</span>
+        </div></a>
+        <a href="task5.html"> <div class="nav1"> <span class="iconfont" style="font-size: 25px">&#xe6ef;
+         </span><br><span>分类</span></div></a>
+        <a href="task8.html"> <div class="nav1"> <span class="iconfont" style="font-size: 25px">&#xe887;
+         </span><br><span>购物车</span></div></a>
+        <a href="task9.html"><div class="nav1"> <span class="iconfont" style="font-size: 25px">&#xe8c8;
+         </span><br><span>用户</span></div></a>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
